@@ -298,18 +298,7 @@ export default function Navbar() {
                 <li><a href="#mission">Mission & Vision</a></li>
               </ul>
             </li>
-            <li>
-              <a
-                href="#solutions"
-                onClick={(e) => {
-                  e.preventDefault()
-                  scrollToSection('solutions')
-                }}
-              >
-                Solutions
-              </a>
-            </li>
-            <li>
+<li>
               <a
                 href="#contact"
                 onClick={(e) => {
