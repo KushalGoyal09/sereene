@@ -35,21 +35,21 @@ export default function About() {
         <div className="about-content">
           <div className={`about-text ${isVisible ? "animate" : ""}`}>
             <p className="lead-text">
-              Sereene is a leading manufacturer and supplier of comprehensive
-              disposable healthcare and hygiene products, committed to
-              excellence and innovation.
+              Sereene Medical Textiles is a specialized healthcare textile
+              manufacturer dedicated to providing premium quality medical
+              apparel and uniforms for hospitals, clinics, diagnostic centers,
+              and healthcare facilities across India.
             </p>
             <p>
-              With state-of-the-art facilities and international standards, we
-              deliver premium quality medical textiles and performance fabrics
-              in the infection control arena. Our products are manufactured
-              using imported machinery under strict quality control to ensure
-              the highest standards.
+              With expertise in medical-grade fabric selection and garment
+              construction, Sereene delivers hospital uniforms that combine
+              comfort, durability, infection control, professional appearance,
+              and regulatory compliance.
             </p>
             <p>
-              We serve healthcare professionals worldwide, providing solutions
-              that prioritize safety, comfort, and reliability in medical
-              environments.
+              Our commitment is to be the preferred partner for hospitals
+              seeking reliable, cost-effective medical textile solutions
+              without compromising quality.
             </p>
             <div className="about-features">
               <div className="feature-item">
@@ -69,8 +69,8 @@ export default function About() {
                   </svg>
                 </div>
                 <div className="feature-content">
-                  <h4>Quality Assured</h4>
-                  <p>International standards and strict quality control</p>
+                  <h4>Comfort & Durability</h4>
+                  <p>Extended wear life and comfort for long shifts</p>
                 </div>
               </div>
               <div className="feature-item">
@@ -81,7 +81,7 @@ export default function About() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M13 10V3L4 14H11V21L20 10H13Z"
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
                       stroke="currentColor"
                       strokeWidth="2"
                       strokeLinecap="round"
@@ -90,8 +90,8 @@ export default function About() {
                   </svg>
                 </div>
                 <div className="feature-content">
-                  <h4>Innovation Driven</h4>
-                  <p>State-of-the-art facilities and cutting-edge technology</p>
+                  <h4>Infection Control</h4>
+                  <p>Easy to clean and maintain hygiene standards</p>
                 </div>
               </div>
               <div className="feature-item">
@@ -102,21 +102,14 @@ export default function About() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      d="M16 21V5C16 4.46957 15.7893 3.96086 15.4142 3.58579C15.0391 3.21071 14.5304 3 14 3H10C9.46957 3 8.96086 3.21071 8.58579 3.58579C8.21071 3.96086 8 4.46957 8 5V21"
                       stroke="currentColor"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
-                      d="M2 12H22"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2Z"
+                      d="M4 7H20"
                       stroke="currentColor"
                       strokeWidth="2"
                       strokeLinecap="round"
@@ -125,8 +118,29 @@ export default function About() {
                   </svg>
                 </div>
                 <div className="feature-content">
-                  <h4>Global Reach</h4>
-                  <p>Serving healthcare professionals worldwide</p>
+                  <h4>Professional Appearance</h4>
+                  <p>Designed to enhance staff identity and hospital branding</p>
+                </div>
+              </div>
+              <div className="feature-item">
+                <div className="feature-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div className="feature-content">
+                  <h4>Regulatory Compliance</h4>
+                  <p>Meets Indian healthcare facility standards</p>
                 </div>
               </div>
             </div>

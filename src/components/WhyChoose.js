@@ -5,18 +5,33 @@ import { useEffect, useRef, useState } from 'react'
 const values = [
   {
     number: '01',
-    title: 'Customer Focus',
-    description: 'Understanding and exceeding customer expectations through personalized solutions and responsive service.'
+    title: 'Medical Textile Expertise',
+    description: 'Specialized knowledge of healthcare requirements.'
   },
   {
     number: '02',
-    title: 'Environmental Awareness',
-    description: 'Committed to sustainable manufacturing practices that minimize environmental impact.'
+    title: 'Quality Assurance',
+    description: 'Rigorous testing and quality control at every stage.'
   },
   {
     number: '03',
-    title: 'Sustainability',
-    description: 'Building a better future through responsible sourcing and eco-friendly production methods.'
+    title: 'Cost-Effective Solutions',
+    description: 'Premium quality at competitive pricing.'
+  },
+  {
+    number: '04',
+    title: 'Customization Capability',
+    description: 'Tailored solutions for unique hospital needs.'
+  },
+  {
+    number: '05',
+    title: 'Reliable Delivery',
+    description: 'Consistent supply chain management.'
+  },
+  {
+    number: '06',
+    title: 'Customer Support',
+    description: 'Dedicated account management and after-sales service.'
   }
 ]
 
@@ -70,7 +85,7 @@ export default function WhyChoose() {
           <div className="why-choose-text">
             <div className="section-header left-align">
               <span className="section-subtitle">Why Choose Us</span>
-              <h2 className="section-title">Commitment to Excellence</h2>
+              <h2 className="section-title">Why Choose Sereene?</h2>
               <div className="title-underline"></div>
             </div>
             <p className="lead-text">
